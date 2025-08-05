@@ -10,6 +10,8 @@ To create a suite of decentralized productivity tools that give users full owner
 
 The core logic is encapsulated in the `task_manager.move` smart contract. It uses a central `TaskBoard` object to store all tasks in a `Table`. Each `Task` has an owner, title, description, completion status, and a list of authorized users.
 
+Smart contract address: [0x440ac788bb6c525d8b1f5e79a34319499e062c940a9e34b55fddee8c3404f6fa](https://explorer.aptoslabs.com/object/0x440ac788bb6c525d8b1f5e79a34319499e062c940a9e34b55fddee8c3404f6fa/modules/packages/TaskManager?network=devnet)
+
 **Key Functions:**
 - `create_task`: Creates a new task, assigning ownership to the transaction sender.
 - `complete_task`: Marks a task as completed. Can only be called by the task owner or an authorized user.
