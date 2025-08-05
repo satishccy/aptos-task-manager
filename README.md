@@ -21,6 +21,7 @@ The core logic is encapsulated in the `task_manager.move` smart contract. It use
 
 - **Decentralized & Immutable:** Tasks are stored on the Aptos blockchain.
 - **Ownership & Permissions:** Each task has a designated owner with the ability to grant permissions to others.
+- **Task Collaboration:** Assign tasks to other Aptos accounts.
 - **Modern Frontend:** A responsive and fast user experience built with Next.js and React.
 - **Wallet Integration:** Connects with Aptos wallets like Petra and Martian.
 
@@ -36,7 +37,7 @@ The core logic is encapsulated in the `task_manager.move` smart contract. It use
 
 1.  **Clone the repository:**
     ```bash
-    git clone <YOUR_REPOSITORY_URL>
+    git clone https://github.com/satishccy/aptos-task-manager.git
     cd aptos-task-manager
     ```
 
@@ -65,11 +66,16 @@ The core logic is encapsulated in the `task_manager.move` smart contract. It use
 
 ## Future Scope
 
-- **Task Collaboration:** Assign tasks to other Aptos accounts.
 - **Deadlines & Reminders:** Implement on-chain due dates.
 - **Tokenized Rewards:** Integrate a Fungible Asset to reward task completion.
 - **Task Organization:** Add categories and tags for better organization.
 
 ## Screenshots
 
-*Please add screenshots of your application here to give users a visual overview.*
+**Home Page**
+
+![Home Page](./public/home.png)
+
+**Task Page**
+
+![Task Page](./public/task.png)
