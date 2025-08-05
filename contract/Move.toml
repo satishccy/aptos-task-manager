@@ -1,0 +1,15 @@
+[package]
+name = "TaskManager"
+version = "1.0.0"
+authors = []
+
+[addresses]
+task_manager_addr = "_"
+
+[dev-addresses]
+task_manager_addr = "0x1368c42aef2db4d296f2415c0eacfc288425fe205ba14df99e193b83e1b1e783"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+
+[dev-dependencies]
